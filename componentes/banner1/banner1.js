@@ -10,7 +10,7 @@ export function banner(){
     let aBoton = document.createElement("a");
     aBoton.textContent = "Shop Now"
     aBoton.className = "divBoton"
-    aBoton.href = "pages/banner1.html";
+    aBoton.href = "/pages/banner1.html";
     div.appendChild(aBoton);
 
 
