@@ -1,9 +1,8 @@
 .div-banner2 {
 
     background-image: url('../../assets/fonts/Splash.png');
-    width: 100%;
+    width: 414px; ;
     height: 100vh;
-    min-height: 100vh;
     padding: 6rem;
     display: flex;
     flex-direction: column;
@@ -90,4 +89,7 @@ p{
     font-family: "Lato", sans-serif;
 
 
+}
+.ocultar{
+    display: none;
 }

@@ -1,3 +1,6 @@
+import { logIn } from "../logIn/logIn.js";
+import { Register } from "../Register/Register.js";
+
 export function banner2(){
     let div = document.createElement('div');
     div.className = "div-banner2";
@@ -14,10 +17,14 @@ export function banner2(){
     p.textContent = "Each men and women has their own style, Geeta help you to create your unique style. "
     div.appendChild(p);
 
-    let aBoton = document.createElement("a")
+    let aBoton = document.createElement("div")
+    aBoton.addEventListener('click',()=>{
+        div.classList.add("ocultar");
+        document.body.appendChild(logIn());
+
+    })
     aBoton.textContent = "LOG IN"
     aBoton.className = "boton-banner2"
-    aBoton.href = "pages/bannerLogin.html"; 
     div.appendChild(aBoton);
 
     let orText = document.createElement('span');
@@ -25,10 +32,14 @@ export function banner2(){
     orText.className = "or-text";
     div.appendChild(orText);
 
-    let bBoton = document.createElement("a")
+    let bBoton = document.createElement("div");
+    bBoton.addEventListener('click', ()=>{
+        div.classList.add('ocultar');
+        document.body.appendChild(Register());
+    })
+
     bBoton.textContent = "REGISTER"
     bBoton.className = "boton2-banner2"
-    bBoton.href = "pages/bannerRegister.html"; 
     div.appendChild(bBoton);
 
     
