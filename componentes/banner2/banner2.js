@@ -17,7 +17,7 @@ export function banner2(){
     let aBoton = document.createElement("a")
     aBoton.textContent = "LOG IN"
     aBoton.className = "boton-banner2"
-    aBoton.href = "/pages/bannerLogin.html"; 
+    aBoton.href = "pages/bannerLogin.html"; 
     div.appendChild(aBoton);
 
     let orText = document.createElement('span');
@@ -28,7 +28,7 @@ export function banner2(){
     let bBoton = document.createElement("a")
     bBoton.textContent = "REGISTER"
     bBoton.className = "boton2-banner2"
-    bBoton.href = "/pages/bannerRegister.html"; 
+    bBoton.href = "pages/bannerRegister.html"; 
     div.appendChild(bBoton);
 
     
