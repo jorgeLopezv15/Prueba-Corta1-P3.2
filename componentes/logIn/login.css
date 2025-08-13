@@ -1,0 +1,33 @@
+.div-logIn{
+    background-image: url(../../assets/fonts/Login.png);
+    width: 414px;
+    height: 100vh;
+    padding: 6rem;
+
+   display: flexbox;
+
+    
+}
+.welcome{
+    margin-top: 0rem;
+    padding-top: 11rem;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+    
+}
+.texto-login{
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+.LOG-IN{
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+.Email-adress{
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    padding-top: 5rem;
+}
+

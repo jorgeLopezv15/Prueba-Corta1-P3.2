@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../componentes/bannerLogin/bannerLogin.css">
+
+    <link rel="stylesheet" href="../componentes/banner2/banner2.css">
+    <link rel="stylesheet" href="../componentes/logIn/login.css">
     <link rel="stylesheet" href="../config.css">
+   
 </head>
 <body>
 
-    <script type="module" src ="../componentes/bannerLogin/bannerLogin.js"></script>
+    <script type="module">
+        import { banner2 } from './componentes/banner2/banner2.js';
+        
+        // Solo cargamos el banner inicialmente
+        document.body.appendChild(banner2());       
+ 
+
+    </script>
     
 </body>
 </html>
